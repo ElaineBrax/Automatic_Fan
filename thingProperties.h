@@ -5,9 +5,9 @@
 
 const char DEVICE_LOGIN_NAME[]  = "8df12aa3-7fc2-4fc7-80cc-dcca44c9c992";
 
-const char SSID[]        = "DavidRiz";    // Network SSID (name)
-const char PASS[]        = "HURUF KECIL SEMUA";    // Network password (use for WPA, or use as key for WEP)
-const char DEVICE_KEY[]  = "xNY3QI9CYdenBVsOS1d9DMaZU";    // Secret device password
+const char SSID[]        = "<YOUR NETWORK NAME>";    // Network SSID (name)
+const char PASS[]        = "<YOUR NETWORK PASSWORD>";    // Network password (use for WPA, or use as key for WEP)
+const char DEVICE_KEY[]  = "<GET FROM ARDUINO CLOUD>";    // Secret device password
 
 void onThermalChange();
 void onFanChange();
